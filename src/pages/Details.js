@@ -27,7 +27,7 @@ const Details = () => {
         />
         <div className="pl-0 p-0">
           <h2 className="font-bold text-2xl mb-8 mt-3">{state.name}</h2>
-          <div className="grid grid-cols-2 gap-20 gap-y-4">
+          <div className="grid grid-cols-2 gap-10 sm:gap-15 md:gap-20 gap-y-4">
             <p>
               Native Name:
               <span className="text-gray-700 dark:text-gray-400 text-sm pl-1">
