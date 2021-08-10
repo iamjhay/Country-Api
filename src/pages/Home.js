@@ -53,9 +53,9 @@ const Home = () => {
           className="ml-auto my-2 p-2 shadow-md rounded-md font-medium dark:bg-gray-700"
           onChange={filterByRegion}
         >
-          <option>all</option>
+          <option value="">all</option>
           <option value="africa">Africa</option>
-          <option value="america">America</option>
+          <option value="americas">Americas</option>
           <option value="Asia">Asia</option>
           <option value="europe">Europe</option>
           <option value="oceania">Oceania</option>
